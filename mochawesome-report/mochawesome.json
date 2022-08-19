@@ -1,0 +1,206 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-08-19T09:32:33.496Z",
+    "end": "2022-08-19T09:32:43.756Z",
+    "duration": 10260,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "07b9f6ce-972f-4169-ac0e-9168019ac0fb",
+      "title": "",
+      "fullFile": "cypress/integration/login.feature",
+      "file": "cypress/integration/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+          "title": "Login of CloudFront",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "To check login functionality with invalid email-ID and invalid password",
+              "fullTitle": "Login of CloudFront To check login functionality with invalid email-ID and invalid password",
+              "timedOut": null,
+              "duration": 2115,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f5e46bb7-496a-49e8-aa92-d397576554ca",
+              "parentUUID": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "To check login functionality with invalid email-ID and valid password",
+              "fullTitle": "Login of CloudFront To check login functionality with invalid email-ID and valid password",
+              "timedOut": null,
+              "duration": 1202,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "914853d3-560a-4d83-a484-e06c90869ee5",
+              "parentUUID": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "To check login functionality with valid email-ID and invalid password",
+              "fullTitle": "Login of CloudFront To check login functionality with valid email-ID and invalid password",
+              "timedOut": null,
+              "duration": 1150,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e4e4b7ca-1d9b-463d-ada2-dda21efd8ecf",
+              "parentUUID": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "To check login functionality with valid email-ID and valid password",
+              "fullTitle": "Login of CloudFront To check login functionality with valid email-ID and valid password",
+              "timedOut": null,
+              "duration": 1100,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f736563c-1d30-4750-90a5-5a26648441e1",
+              "parentUUID": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click forget password link and verify Url",
+              "fullTitle": "Login of CloudFront Click forget password link and verify Url",
+              "timedOut": null,
+              "duration": 197,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "192ef0b1-9920-4be1-bd24-2da5900981ff",
+              "parentUUID": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "To check reset password functionality",
+              "fullTitle": "Login of CloudFront To check reset password functionality",
+              "timedOut": null,
+              "duration": 2489,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "027bce86-2b8d-4359-9e29-780bf47c0ad8",
+              "parentUUID": "e393947b-fce1-4c1b-9905-e653d0a2fed4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f5e46bb7-496a-49e8-aa92-d397576554ca",
+            "914853d3-560a-4d83-a484-e06c90869ee5",
+            "e4e4b7ca-1d9b-463d-ada2-dda21efd8ecf",
+            "f736563c-1d30-4750-90a5-5a26648441e1",
+            "192ef0b1-9920-4be1-bd24-2da5900981ff",
+            "027bce86-2b8d-4359-9e29-780bf47c0ad8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8253,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports",
+          "quite": true,
+          "overwrite": true,
+          "html": true,
+          "json": true,
+          "charts": true
+        },
+        "video": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

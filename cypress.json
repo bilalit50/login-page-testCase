@@ -1,0 +1,21 @@
+{
+  "projectId": "s769ih",
+
+  "defaultCommandTimeout": 8000,
+  "testFiles": "**/*.feature",
+
+  "reporter": "mochawesome",
+
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports",
+      "quite": true,
+      "overwrite": true,
+      "html": true,
+      "json": true,
+      "charts": true
+    },
+    "video": false
+  }
+}
